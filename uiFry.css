@@ -1,0 +1,447 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(PHOTOS/ld.png);
+}
+header{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+
+section{
+    position: relative;
+    top: 15px;
+    left: 95px;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    z-index: 1000;
+}
+section .navbar a{
+    font-size: 1.6rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 4rem;
+    color: black;
+}
+section .navbar .homie{
+    color: rgb(238, 53, 115);
+}
+section .navbar .download{
+    color: rgb(249, 252, 255);
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 7px;
+    padding: 10px 26px;
+    letter-spacing: 1.2px;
+}   
+section .navbar .download{
+    margin-left: 20rem;
+}
+/* ****************heading page ****************/
+.image-box .image-1{
+    margin-left: 40rem;
+}
+.image-box .image-2{
+    margin-left: 40rem;
+}
+.image-box .image-3{
+    margin-left: 40rem;
+}
+div.image-1{
+    z-index: 1;
+        position:absolute;
+        top: 90px;
+        left: 80px;
+        width: 230px;
+        padding: 6px;
+}
+div.image-2{
+    position:absolute;
+    top: 140px;
+    left: 260px;
+    width: 230px;
+    padding: 6px;
+
+}
+div.image-3{
+    position:absolute;
+    top: 120px;
+    left: 180px;
+    width: 230px;
+    padding: 6px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+ .heading h1{
+    display: flex;
+    position: absolute;
+    margin-right: 50rem;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 2.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ header p{
+    font-size: 1rem;
+    margin-top:5rem;
+}
+header .getVideo{
+    margin-right: 10rem;
+    color: rgb(255, 255, 255);
+    line-height: 5;
+    background-color: black;
+    padding: 9px 25px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .watchVideo{
+    color: rgb(0, 0, 0);
+    line-height:6 ;
+    margin-left: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.watchVideo svg{
+    width: 20px;
+    height: 18px;
+}
+
+/*----------------------section-2--------------------------->*/
+.section-2 {
+    margin-top: 12rem;
+    line-height: 1.7;
+    float: right;
+    margin-right: 14rem;
+}
+.features h4{
+    margin-top:-135px;
+    color: rgb(242, 48, 113);
+    letter-spacing: 1.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-2 .text p{
+    line-height: 1.3;
+    margin: 9px auto;
+}
+.section-2 .text h3{
+   margin-top: 1rem;
+}
+.icon{
+   float: left;
+   margin: 0 5px;
+}
+.phone-2 img{
+ margin-top: 29px;
+ margin-left: 180px;
+}
+/*----------------------section-3--------------------------->*/
+.section-3 {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+.features-1 h4{
+    color: rgb(242, 48, 113);
+    letter-spacing: 1.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phone-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:650px;
+    margin-top: -370px;
+}
+.box{
+    z-index:9999;
+    padding: 15px;
+    width: 600px;
+    margin: 20px;
+    margin-left:26rem;
+    position: absolute;
+}
+.box .dollar{
+    margin: 5px;
+    margin-top: -70px;
+    margin-left: 55px;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+    margin-left: 3.5rem;
+    font-size: 8px;
+}
+.box .onHold p{
+    color: rgb(255, 0, 0);
+    margin-left: 170px;
+    margin-top: -40px;
+    font-size:12px;
+}
+/*----------------------section-4--------------------------->*/
+.section-4{
+    margin-top: 1rem;
+    line-height: 1.7;
+    float: right;
+    margin-right: 2rem;
+}
+.section-4 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+.section-4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+.phone-4 img{
+    margin-top:-250px;
+    margin-left:210px;
+}
+/*----------------------section-5--------------------------->*/
+.section-5 {
+    margin: 0 10px;
+}
+.phone-5 img{
+    margin-top: -330px;
+    margin-left: 135px;
+}
+.name{
+    float: right;
+    margin-left:-30px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name h2{
+    float: left;
+    margin-right: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-5 .users{
+    text-align: center;
+}
+.section-5 .users h4{
+    margin: 5px;
+    text-align: center;
+    letter-spacing: 1.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.section-5 .users h1{
+    text-align: center;
+    letter-spacing: 1.8px;
+}
+.section-5 .text{
+    margin-top: 9rem;
+    line-height: 1.2;
+    float: right;
+    margin-left:12rem;
+}
+.section-5 .text h2{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 37rem;
+}
+.section-5 .text p{
+    margin-top: 1rem;
+    letter-spacing:0.1px;
+    float: right;
+    margin-left:37rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-5 .small-photo{
+    display: flex;
+    margin: 5px;
+    margin-top: 18rem;
+    margin-left:49rem;
+    box-shadow: pink;
+}
+.section-5 .micro-photo {
+    display: flex;
+    margin: 12px 15px;
+}
+/*----------------------section-6--------------------------->*/
+.section-6 .users-1 h4{
+    color: rgb(235, 25, 95);
+    margin: 0 130px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-6 .users-1 h1{
+    margin: 0 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    display: flex;
+}
+.para .para-1{
+    color: aliceblue;
+    margin: 19px 130px;
+    width: 35vw;
+    padding: 25px 20px;
+    border-radius: 12px;
+    background-color:rgba(241, 13, 51, 0.935);
+}
+.para .para-1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+}
+.para .para-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto;
+}
+.para .para-2 h3{
+    margin-top: 60px;
+    margin-left: 4px;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para .para-2 p{
+    margin: 15px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph{
+    display: flex;
+}
+.paragraph .para-1{
+    color: rgb(0, 0, 0);
+    margin: 19px 130px;
+    width: 35vw;
+    padding: 25px 20px;
+    border-radius: 12px;
+}
+.paragraph .para-1 h3{
+    margin-top: -30px;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph .para-1 p{
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph .para-2{
+    color: aliceblue;
+    margin: 10px 5px;
+    width: 35vw;
+    padding: 25px 20px;
+    border-radius: 12px;
+    background-color:rgba(241, 13, 51, 0.935);
+}
+.paragraph .para-2 h3{
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.paragraph .para-2 p{
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------------------section-7--------------------------->*/
+.section-7{
+    margin-top: 11rem;
+    margin-left: 12rem;
+}   
+.section-7{
+    display: flex;
+}
+.div{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 180px;
+}
+.div .div-1 h1{
+    margin-left:40px;
+    margin-top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div .div-1 .mail{
+    margin-left:4px;
+    margin-top: 20px;
+}
+.div .div-1 .mail h2{
+    margin-left:4px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div .div-1 .phoneno{
+    margin-left:4px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div .div-1 p{
+    margin-left:40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-2{
+    margin: 0 55px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-2 p{
+    margin: 13px;
+    margin-left: -1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-3 p{
+    margin-top: 110px;
+    margin-left: -190px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:initial;
+}
+.div-4 p{
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: -70px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px 24px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brakLine hr{
+    margin: 0 20px;
+}
+/*----------------------Footer--------------------------->*/
+.footer-div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    margin: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
